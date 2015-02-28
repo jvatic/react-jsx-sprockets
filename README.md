@@ -12,14 +12,6 @@ And then execute:
 
     $ bundle
 
-## Usage
-
-```ruby
-ReactJSXSprockets.configure do |config|
-  config.extensions = %w( jsx )
-end
-```
-
 ## Contributing
 
 1. Fork it

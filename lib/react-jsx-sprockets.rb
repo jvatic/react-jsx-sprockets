@@ -8,12 +8,6 @@ module ReactJSXSprockets
 
   DEFAULT_EXTENTIONS = %w( jsx ).freeze
 
-  attr_writer :extensions
-
-  def configure
-    yield(self)
-  end
-
   def template_extensions
     @template_extensions ||= DEFAULT_EXTENTIONS
   end
